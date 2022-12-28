@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body {
+	display: flex;
+	background-color: hsl(217, 54%, 11%);
+	font-family: 'Outfit', sans-serif;
+}
+
+.container {
+	margin: auto;
+	font-family: 'Outfit', sans-serif;
+	justify-content: center;
+	align-items: center;
+	display: grid;
+	background-color: hsl(216, 50%, 16%);
+	height: auto;
+	width: 375px;
+	padding: 30px;
+	border-radius: 4%;
+	border-color: hsl(217, 54%, 30%);
+}
+
+.title {
+	color: hsl(0, 0%, 100%);
+	font-weight: 400;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+.paragraph-equilibrium {
+	font-size: 18px;
+	font-weight: 300px;
+	color: hsl(215, 51%, 70%);
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	display: flex;
+	justify-content: left;
+	margin-left: 10px;
+	align-items: center;
+}
+.item-img {
+	margin: auto;
+	border-color: hsl(217, 54%, 30%);
+	border-radius: 4%;
+	width: 380px;
+	height: 365px;
+}
+
+.person {
+	width: 50px;
+	height: auto;
+	padding-right: 20px;
+	margin-top: 25px;
+	padding-bottom: 15px;
+	text-align: center;
+}
+
+.footer-title {
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+	font-size: 16px;
+	margin-top: 28px;
+	word-spacing: 0.2em;
+}
+
+.footer-title span {
+	color: hsl(0, 0%, 100%);
+}
+
+span hr {
+	max-width: 370px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+hr {
+	display: block;
+	margin-top: 1.5em;
+	margin-bottom: -0.1em;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: inset;
+	border-width: 0.01px;
+	border-color: hsl(215, 32%, 27%);
+}
+
+.prices {
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	align-items: center;
+}
+
+.symbol {
+	color: hsla(0, 0%, 100%, 0.703);
+	padding-right: 10px;
+	font-weight: 600;
+	font-size: 22px;
+}
+
+.value {
+	color: hsl(0, 0%, 100%);
+	font-weight: 400;
+	font-size: 28px;
+}
